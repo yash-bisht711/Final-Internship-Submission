@@ -1,8 +1,8 @@
 # Full-Stack Development Internship – Final Project Submission
 
-\<p align="center">   \<h1 align="center">Full-Stack Development Projects\</h1>   \<p align="center">     Two production-oriented full-stack applications demonstrating modern web development,     real-time collaboration, scalable architecture, and practical software engineering.   \</p> \</p>
+<p align="center">   <h1 align="center">Full-Stack Development Projects</h1>   <p align="center">     Two production-oriented full-stack applications demonstrating modern web development,     real-time collaboration, scalable architecture, and practical software engineering.   </p> </p>
 
-\<p align="center">   \<img src="[https://img.shields.io/badge/Track-Full--Stack%20Development-blue](https://img.shields.io/badge/Track-Full--Stack%20Development-blue)" />   \<img src="[https://img.shields.io/badge/Projects-2-success](https://img.shields.io/badge/Projects-2-success)" />   \<img src="[https://img.shields.io/badge/Status-Submitted%20for%20Evaluation-orange](https://img.shields.io/badge/Status-Submitted%20for%20Evaluation-orange)" />   \<img src="[https://img.shields.io/badge/Repository-Public-brightgreen](https://img.shields.io/badge/Repository-Public-brightgreen)" /> \</p>
+<p align="center">   <img src="[https://img.shields.io/badge/Track-Full--Stack%20Development-blue](https://img.shields.io/badge/Track-Full--Stack%20Development-blue)" />   <img src="[https://img.shields.io/badge/Projects-2-success](https://img.shields.io/badge/Projects-2-success)" />   <img src="[https://img.shields.io/badge/Status-Submitted%20for%20Evaluation-orange](https://img.shields.io/badge/Status-Submitted%20for%20Evaluation-orange)" />   <img src="[https://img.shields.io/badge/Repository-Public-brightgreen](https://img.shields.io/badge/Repository-Public-brightgreen)" /> </p>
 
 ---
 
@@ -34,7 +34,7 @@ Each project is maintained in its own independent GitHub repository and connecte
 
 ## Real-Time Collaborative Workspace
 
-\<p align="center">   \<a href="[https://collabespace-orcin.vercel.app/app](https://collabespace-orcin.vercel.app/app)">     \<img src="[https://img.shields.io/badge/Live%20Demo-Visit%20Application-blue?style=for-the-badge](https://img.shields.io/badge/Live%20Demo-Visit%20Application-blue?style=for-the-badge)" />   \</a>   \<a href="[https://github.com/yash-bisht711/nexasync](https://github.com/yash-bisht711/nexasync)">     \<img src="[https://img.shields.io/badge/GitHub-Source%20Code-black?style=for-the-badge&logo=github](https://img.shields.io/badge/GitHub-Source%20Code-black?style=for-the-badge\&logo=github)" />   \</a> \</p>
+<p align="center">   <a href="[https://collabespace-orcin.vercel.app/app](https://collabespace-orcin.vercel.app/app)">     <img src="[https://img.shields.io/badge/Live%20Demo-Visit%20Application-blue?style=for-the-badge](https://img.shields.io/badge/Live%20Demo-Visit%20Application-blue?style=for-the-badge)" />   </a>   <a href="[https://github.com/yash-bisht711/nexasync](https://github.com/yash-bisht711/nexasync)">     <img src="[https://img.shields.io/badge/GitHub-Source%20Code-black?style=for-the-badge&logo=github](https://img.shields.io/badge/GitHub-Source%20Code-black?style=for-the-badge&logo=github)" />   </a> </p>
 
 ### 1. Project Description
 
@@ -96,7 +96,7 @@ Live Application: [https://collabespace-orcin.vercel.app/app](https://collabespa
 
 ## Learning Management System with Live Classes
 
-\<p align="center">   \<a href="[https://edu-nexa-iota.vercel.app/](https://edu-nexa-iota.vercel.app/)">     \<img src="[https://img.shields.io/badge/Live%20Demo-Visit%20Application-blue?style=for-the-badge](https://img.shields.io/badge/Live%20Demo-Visit%20Application-blue?style=for-the-badge)" />   \</a>   \<a href="[https://github.com/yash-bisht711/EduNexa](https://github.com/yash-bisht711/EduNexa)">     \<img src="[https://img.shields.io/badge/GitHub-Source%20Code-black?style=for-the-badge&logo=github](https://img.shields.io/badge/GitHub-Source%20Code-black?style=for-the-badge\&logo=github)" />   \</a> \</p>
+<p align="center">   <a href="[https://edu-nexa-iota.vercel.app/](https://edu-nexa-iota.vercel.app/)">     <img src="[https://img.shields.io/badge/Live%20Demo-Visit%20Application-blue?style=for-the-badge](https://img.shields.io/badge/Live%20Demo-Visit%20Application-blue?style=for-the-badge)" />   </a>   <a href="[https://github.com/yash-bisht711/EduNexa](https://github.com/yash-bisht711/EduNexa)">     <img src="[https://img.shields.io/badge/GitHub-Source%20Code-black?style=for-the-badge&logo=github](https://img.shields.io/badge/GitHub-Source%20Code-black?style=for-the-badge&logo=github)" />   </a> </p>
 
 ### 1. Project Description
 
@@ -324,6 +324,6 @@ Both projects have their own public GitHub repositories and deployed application
 
 **Thank you for reviewing this submission.**
 
-\<p align="center">
-&#x20; \<b>Built with dedication, continuous learning, and full-stack engineering.\</b>
-\</p>
+<p align="center">
+&#x20; <b>Built with dedication, continuous learning, and full-stack engineering.</b>
+</p>
