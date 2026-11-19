@@ -1,0 +1,6 @@
+[submodule "FS-02"]
+	path = FS-02
+	url = https://github.com/yash-bisht711/nexasync.git
+[submodule "FS-03"]
+	path = FS-03
+	url = https://github.com/yash-bisht711/EduNexa.git
