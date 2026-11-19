@@ -1,21 +1,31 @@
 # Full-Stack Development Internship – Final Project Submission
 
-<p align="center">   <h1 align="center">Full-Stack Development Projects</h1>   <p align="center">     Two production-oriented full-stack applications demonstrating modern web development,     real-time collaboration, scalable architecture, and practical software engineering.   </p> </p>
+<p align="center">
+  <h1 align="center">Full-Stack Development Projects</h1>
+  <p align="center">
+    A collection of two full-stack applications developed as part of the Full-Stack Development internship, demonstrating modern web development, real-time collaboration, and practical software engineering.
+  </p>
+</p>
 
-<p align="center">   <img src="[https://img.shields.io/badge/Track-Full--Stack%20Development-blue](https://img.shields.io/badge/Track-Full--Stack%20Development-blue)" />   <img src="[https://img.shields.io/badge/Projects-2-success](https://img.shields.io/badge/Projects-2-success)" />   <img src="[https://img.shields.io/badge/Status-Submitted%20for%20Evaluation-orange](https://img.shields.io/badge/Status-Submitted%20for%20Evaluation-orange)" />   <img src="[https://img.shields.io/badge/Repository-Public-brightgreen](https://img.shields.io/badge/Repository-Public-brightgreen)" /> </p>
+<p align="center">
+  <img src="https://img.shields.io/badge/Track-Full--Stack%20Development-blue" alt="Full-Stack Development" />
+  <img src="https://img.shields.io/badge/Projects-2-success" alt="Two Projects" />
+  <img src="https://img.shields.io/badge/Status-Ready%20for%20Review-orange" alt="Ready for Review" />
+  <img src="https://img.shields.io/badge/Repository-Public-brightgreen" alt="Public Repository" />
+</p>
 
 ---
 
 ## 📌 Internship Information
 
-| Detail               | Information            |
-| -------------------- | ---------------------- |
+| Detail | Information |
+|---|---|
 | Specialization Track | Full-Stack Development |
-| Batch Start Date     | 20 October 2026        |
-| Project Deadline     | 20 November 2026       |
-| Estimated Effort     | 14 Days                |
-| Total Projects       | 2                      |
-| Developer            | Yash Bisht             |
+| Batch Start Date | 20 October 2026 |
+| Project Deadline | 20 November 2026 |
+| Estimated Effort | 14 Days |
+| Total Projects | 2 |
+| Developer | Yash Bisht |
 
 ## 📂 Project Overview
 
@@ -23,10 +33,10 @@ This repository serves as the central submission repository for both projects as
 
 Each project is maintained in its own independent GitHub repository and connected here using Git submodules. This preserves the individual project structures, source code, and commit histories.
 
-| Project ID | Project Name | Category                                     |
-| ---------- | ------------ | -------------------------------------------- |
-| FS-02      | NexaSync     | Real-Time Collaborative Workspace            |
-| FS-03      | EduNexa      | Learning Management System with Live Classes |
+| Project ID | Project Name | Category |
+|---|---|---|
+| FS-02 | NexaSync | Real-Time Collaborative Workspace |
+| FS-03 | EduNexa | Learning Management System with Live Classes |
 
 ---
 
@@ -34,7 +44,14 @@ Each project is maintained in its own independent GitHub repository and connecte
 
 ## Real-Time Collaborative Workspace
 
-<p align="center">   <a href="[https://collabespace-orcin.vercel.app/app](https://collabespace-orcin.vercel.app/app)">     <img src="[https://img.shields.io/badge/Live%20Demo-Visit%20Application-blue?style=for-the-badge](https://img.shields.io/badge/Live%20Demo-Visit%20Application-blue?style=for-the-badge)" />   </a>   <a href="[https://github.com/yash-bisht711/nexasync](https://github.com/yash-bisht711/nexasync)">     <img src="[https://img.shields.io/badge/GitHub-Source%20Code-black?style=for-the-badge&logo=github](https://img.shields.io/badge/GitHub-Source%20Code-black?style=for-the-badge&logo=github)" />   </a> </p>
+<p align="center">
+  <a href="https://collabespace-orcin.vercel.app/app">
+    <img src="https://img.shields.io/badge/Live%20Demo-Visit%20Application-blue?style=for-the-badge" alt="NexaSync Live Demo" />
+  </a>
+  <a href="https://github.com/yash-bisht711/nexasync">
+    <img src="https://img.shields.io/badge/GitHub-Source%20Code-black?style=for-the-badge&logo=github" alt="NexaSync Source Code" />
+  </a>
+</p>
 
 ### 1. Project Description
 
@@ -42,7 +59,7 @@ NexaSync is a real-time collaborative workspace designed to allow multiple users
 
 The platform focuses on synchronized editing, real-time presence, workspace management, and collaborative productivity.
 
-Inspired by modern collaborative tools such as Notion and Figma, NexaSync aims to provide a shared environment where users can collaborate without losing changes or experiencing conflicting edits.
+Inspired by modern collaborative tools such as Notion and Figma, NexaSync aims to provide a shared environment where users can collaborate while maintaining synchronized changes.
 
 ### 2. Key Features
 
@@ -60,18 +77,18 @@ Inspired by modern collaborative tools such as Notion and Figma, NexaSync aims t
 
 ### 3. Technology Stack
 
-| Layer                   | Technologies                                           |
-| ----------------------- | ------------------------------------------------------ |
-| Frontend                | Next.js, React, TypeScript                             |
-| Styling                 | Tailwind CSS                                           |
-| Editor                  | TipTap                                                 |
-| Real-Time Collaboration | Yjs, WebSockets                                        |
-| Backend                 | Next.js server-side functionality and WebSocket server |
-| Database                | PostgreSQL                                             |
-| ORM                     | Prisma                                                 |
-| Caching / Scaling       | Redis                                                  |
-| Validation              | Zod                                                    |
-| Deployment              | Vercel and supporting backend infrastructure           |
+| Layer | Technologies |
+|---|---|
+| Frontend | Next.js, React, TypeScript |
+| Styling | Tailwind CSS |
+| Editor | TipTap |
+| Real-Time Collaboration | Yjs, WebSockets |
+| Backend | Next.js server-side functionality and WebSocket server |
+| Database | PostgreSQL |
+| ORM | Prisma |
+| Caching / Scaling | Redis |
+| Validation | Zod |
+| Deployment | Vercel and supporting backend infrastructure |
 
 ### 4. Architecture Overview
 
@@ -82,13 +99,12 @@ The application follows a full-stack architecture consisting of:
 3. **Application Layer:** Manages workspaces, pages, comments, permissions, and snapshots.
 4. **Collaboration Layer:** Uses Yjs and WebSockets to synchronize concurrent editing sessions.
 5. **Data Layer:** PostgreSQL stores persistent application data through Prisma.
-6. **Synchronization Infrastructure:** Redis supports communication and coordination across multiple collaboration server instances.
+6. **Synchronization Infrastructure:** Redis supports communication and coordination across collaboration server instances.
 
 ### 5. Repository
 
-Source Code: [https://github.com/yash-bisht711/nexasync](https://github.com/yash-bisht711/nexasync)
-
-Live Application: [https://collabespace-orcin.vercel.app/app](https://collabespace-orcin.vercel.app/app)
+- **Source Code:** https://github.com/yash-bisht711/nexasync
+- **Live Application:** https://collabespace-orcin.vercel.app/app
 
 ---
 
@@ -96,7 +112,14 @@ Live Application: [https://collabespace-orcin.vercel.app/app](https://collabespa
 
 ## Learning Management System with Live Classes
 
-<p align="center">   <a href="[https://edu-nexa-iota.vercel.app/](https://edu-nexa-iota.vercel.app/)">     <img src="[https://img.shields.io/badge/Live%20Demo-Visit%20Application-blue?style=for-the-badge](https://img.shields.io/badge/Live%20Demo-Visit%20Application-blue?style=for-the-badge)" />   </a>   <a href="[https://github.com/yash-bisht711/EduNexa](https://github.com/yash-bisht711/EduNexa)">     <img src="[https://img.shields.io/badge/GitHub-Source%20Code-black?style=for-the-badge&logo=github](https://img.shields.io/badge/GitHub-Source%20Code-black?style=for-the-badge&logo=github)" />   </a> </p>
+<p align="center">
+  <a href="https://edu-nexa-iota.vercel.app/">
+    <img src="https://img.shields.io/badge/Live%20Demo-Visit%20Application-blue?style=for-the-badge" alt="EduNexa Live Demo" />
+  </a>
+  <a href="https://github.com/yash-bisht711/EduNexa">
+    <img src="https://img.shields.io/badge/GitHub-Source%20Code-black?style=for-the-badge&logo=github" alt="EduNexa Source Code" />
+  </a>
+</p>
 
 ### 1. Project Description
 
@@ -124,22 +147,22 @@ Its objective is to simplify online education by connecting learning content, in
 
 ### 3. Technology Stack
 
-| Layer                   | Technologies                          |
-| ----------------------- | ------------------------------------- |
-| Frontend                | React, JavaScript                     |
-| Styling                 | Tailwind CSS                          |
-| State Management        | Redux Toolkit                         |
-| Backend                 | Node.js, Express.js                   |
-| Database                | MongoDB                               |
-| ODM                     | Mongoose                              |
-| Background Jobs         | BullMQ                                |
-| Video Processing        | FFmpeg                                |
-| Real-Time Communication | Socket.IO, LiveKit                    |
-| Storage                 | Cloudinary and video storage adapters |
-| Payments                | Razorpay test integration             |
-| Deployment              | Vercel and Render                     |
+| Layer | Technologies |
+|---|---|
+| Frontend | React, JavaScript |
+| Styling | Tailwind CSS |
+| State Management | Redux Toolkit |
+| Backend | Node.js, Express.js |
+| Database | MongoDB |
+| ODM | Mongoose |
+| Background Jobs | BullMQ |
+| Video Processing | FFmpeg |
+| Real-Time Communication | Socket.IO, LiveKit |
+| Storage | Cloudinary and video storage adapters |
+| Payments | Razorpay test integration |
+| Deployment | Vercel and Render |
 
-**Database implementation note:** The current EduNexa implementation uses MongoDB and Mongoose. This is documented accurately rather than representing the project as PostgreSQL/Prisma-based.
+**Database implementation note:** The current EduNexa implementation uses MongoDB and Mongoose.
 
 ### 4. Architecture Overview
 
@@ -156,11 +179,9 @@ The platform follows a modular full-stack architecture:
 
 ### 5. Repository
 
-Source Code: [https://github.com/yash-bisht711/EduNexa](https://github.com/yash-bisht711/EduNexa)
-
-Live Application: [https://edu-nexa-iota.vercel.app/](https://edu-nexa-iota.vercel.app/)
-
-Backend: [https://edunexa-yzfg.onrender.com](https://edunexa-yzfg.onrender.com)
+- **Source Code:** https://github.com/yash-bisht711/EduNexa
+- **Live Application:** https://edu-nexa-iota.vercel.app/
+- **Backend:** https://edunexa-yzfg.onrender.com
 
 ---
 
@@ -170,7 +191,6 @@ Backend: [https://edunexa-yzfg.onrender.com](https://edunexa-yzfg.onrender.com)
 Final-Internship-Submission/
 │
 ├── README.md
-│
 ├── .gitmodules
 │
 ├── FS-02/                 # NexaSync Git Submodule
@@ -195,7 +215,7 @@ Both projects retain their independent Git histories and development workflows.
 - Redis (where required by the respective project)
 - Visual Studio Code (recommended)
 
-Additional environment variables and services may be required depending on the project configuration.
+Additional environment variables and services may be required depending on each project's configuration.
 
 ## 1. Clone the Main Repository
 
@@ -207,7 +227,9 @@ git clone --recurse-submodules https://github.com/yash-bisht711/Final-Internship
 cd Final-Internship-Submission
 ```
 
-## 2. Initialize Submodules (If Already Cloned Without Them)
+## 2. Initialize Submodules
+
+If the repository was cloned without submodules, run:
 
 ```bash
 git submodule update --init --recursive
@@ -215,15 +237,19 @@ git submodule update --init --recursive
 
 ## 3. Run NexaSync
 
+Navigate to the NexaSync project:
+
 ```bash
 cd FS-02
 ```
 
 Follow the project-specific README for installation, environment configuration, database setup, and development commands.
 
-Repository: [https://github.com/yash-bisht711/nexasync](https://github.com/yash-bisht711/nexasync)
+Repository: https://github.com/yash-bisht711/nexasync
 
 ## 4. Run EduNexa
+
+Navigate to the EduNexa project:
 
 ```bash
 cd ../FS-03
@@ -231,7 +257,7 @@ cd ../FS-03
 
 Follow its project-specific README for installation, environment configuration, database setup, background workers, and development commands.
 
-Repository: [https://github.com/yash-bisht711/EduNexa](https://github.com/yash-bisht711/EduNexa)
+Repository: https://github.com/yash-bisht711/EduNexa
 
 ---
 
@@ -277,10 +303,10 @@ Additional presentation materials, architecture diagrams, screenshots, and indiv
 
 # 🚀 Live Deployments
 
-| Project  | Live Application                                              | Source Code                                         |
-| -------- | ------------------------------------------------------------- | --------------------------------------------------- |
+| Project | Live Application | Source Code |
+|---|---|---|
 | NexaSync | [Open Application](https://collabespace-orcin.vercel.app/app) | [GitHub](https://github.com/yash-bisht711/nexasync) |
-| EduNexa  | [Open Application](https://edu-nexa-iota.vercel.app/)         | [GitHub](https://github.com/yash-bisht711/EduNexa)  |
+| EduNexa | [Open Application](https://edu-nexa-iota.vercel.app/) | [GitHub](https://github.com/yash-bisht711/EduNexa) |
 
 ---
 
@@ -306,8 +332,8 @@ Through these projects, the development work focuses on practical full-stack eng
 
 Full-Stack Developer
 
-- GitHub: [yash-bisht711](https://github.com/yash-bisht711)
-- Portfolio: [Personal Portfolio](https://yash-bisht711.github.io/Yash-Bisht_Portfolio/)
+- **GitHub:** [yash-bisht711](https://github.com/yash-bisht711)
+- **Portfolio:** [Personal Portfolio](https://yash-bisht711.github.io/Yash-Bisht_Portfolio/)
 
 ---
 
@@ -325,5 +351,5 @@ Both projects have their own public GitHub repositories and deployed application
 **Thank you for reviewing this submission.**
 
 <p align="center">
-&#x20; <b>Built with dedication, continuous learning, and full-stack engineering.</b>
+  <b>Built with dedication, continuous learning, and full-stack engineering.</b>
 </p>
